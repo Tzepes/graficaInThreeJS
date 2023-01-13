@@ -31,7 +31,7 @@ const objLoader = new OBJLoader()
 objLoader.load(
     'models/monkey.obj',
     (object) => {
-        (object.children[0] as THREE.Mesh).material = material
+        //(object.children[0] as THREE.Mesh).material = material
         // object.traverse(function (child) {
         //     if ((child as THREE.Mesh).isMesh) {
         //         (child as THREE.Mesh).material = material
